@@ -11,9 +11,9 @@ Key features of the analysis:
 -	Leveraging financial metrics and business terminology like LTV (Loan-to-Value), DTI (Debt-to-Income), and repayment rates. This project aims to analyze loan performance and borrower behavior using historical data from a financial institution. The objective is to uncover actionable insights that can improve loan approval processes, reduce default rates, and optimize lending strategies. The scope includes examining key financial metrics such as interest rates, creditworthiness, and debt-to-income ratios while segmenting borrower data by demographics and regions.
 
 Below are the relevant resources for this project:
-  Power BI Report: <a href="[https://github.com/Tadichi/maven-toys-data-analysis/blob/main/toy_sales.pbix](https://github.com/Tadichi/Loan-Analysis---Aurarin-Horizons-Financials/blob/main/Files/Aurarin%20Horizons%20Financial.pbix">pbix_file</a>
+  Power BI Report: <a href="[https://github.com/Tadichi/maven-toys-data-analysis/blob/main/toy_sales.pbix](https://github.com/Tadichi/Loan-Analysis---Aurarin-Horizons-Financials/blob/main/Files/Aurarin%20Horizons%20Financial.pbix)">pbix_file</a>
   SQL Queries: <a href="[https://github.com/Tadichi/maven-toys-data-analysis/blob/main/SQL%20Queires.sql](https://github.com/Tadichi/Loan-Analysis---Aurarin-Horizons-Financials/blob/main/Files/SQL%20Query.sql">SQL_file</a>
-  CSV Data: <a href="[https://github.com/Tadichi/maven-toys-data-analysis/tree/main/Project%20Files](https://github.com/Tadichi/Loan-Analysis---Aurarin-Horizons-Financials/tree/main/Files">Dataset</a>
+  CSV Data: <a href="[[https://github.com/Tadichi/maven-toys-data-analysis/tree/main/Project%20Files](https://github.com/Tadichi/Loan-Analysis---Aurarin-Horizons-Financials/tree/main/Files](https://github.com/Tadichi/Loan-Analysis---Aurarin-Horizons-Financials/tree/main/Files)">Dataset</a>
 
 
 ## 2. Executive Summary
@@ -64,6 +64,7 @@ Analysis:
   
   Approval Rate (AR) = 78% for No Pre-Approval vs. 22% for Pre-Approval.
 
+
 2. Creditworthiness Insights:
 
       Borrowers with low creditworthiness exhibit a default rate of 37%, significantly higher than the 3% default rate for moderate borrowers.
@@ -76,6 +77,7 @@ Analysis:
 Default Rate (DR) = (Defaults / Total Loans) × 100. 
 DR for Low Creditworthiness: 37%; Moderate: 3%.
 
+
 3. Interest Rate Patterns:
 
       Moderate interest rates (3%-4%) have the highest default count at 46,224 loans, while low interest rates (<3%) correspond with high repayment rates.
@@ -86,6 +88,7 @@ Analysis:
   -	Loans at <3% interest represent an opportunity to target low-risk, high-volume borrowers for consistent portfolio growth.
     
 Default-to-Repayment Ratio (DRR) = 1.85 for the 3%-4% range.
+
 
 4. Spread Impact:
 
@@ -98,6 +101,7 @@ Analysis:
 
 Default Spread Impact (DSI) = 34% of defaults occur in the 0.14-0.52 spread range.
 
+
 5. Regional Loan Performance:
      The North region leads with 41,794 defaults, while the North-East region maintains the lowest default rate at 2.3%.
 
@@ -107,6 +111,7 @@ Analysis:
   -	Tailored financial products by region could help improve borrower satisfaction and minimize defaults.
 
 Regional Default Rate (RDR) = 18.5% in the North vs. 2.3% in the North-East.
+
 
 6. Demographic Patterns:
 
@@ -121,6 +126,7 @@ Analysis:
 
 Demographic Loan Value (DLV) = $1.25B for Joint borrowers in the South.
 
+
 7. Loan Type Analysis:
 
 ![overview](https://github.com/user-attachments/assets/6503ac97-c697-4428-9b22-9768b14f45c4)
@@ -134,6 +140,7 @@ Analysis:
 
 Loan Performance Index (LPI) = 0.42 for Standard loans vs. 0.68 for Specialized loans.
 
+
 8. High-Value Segments:
  
     Joint borrowers in the South dominate as the most lucrative group, with a Segment Value Contribution (SVC) of $1.9M.
@@ -145,6 +152,7 @@ Analysis:
 
 Segment Value Contribution (SVC) = Average Loan Amount × Repayment Rate = $1.9M for Joint Borrowers in the South.
 
+
 ## 6. Final Recommendations for Aurarin Horizons Financial
 
   1.	Streamline Pre-Approval processes and target marketing for underrepresented demographics.
@@ -154,6 +162,7 @@ Segment Value Contribution (SVC) = Average Loan Amount × Repayment Rate = $1.9M
   5.	Expand lending operations in the North-East while addressing high-risk trends in the North.
   6.	Enhance financial literacy programs for underrepresented groups like female and younger borrowers.
   7.	Tailor loan products for high-value segments, particularly Joint borrowers in the South.
+
 
 ## 7. Caveats and Assumptions
    
