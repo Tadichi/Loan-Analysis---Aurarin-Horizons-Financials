@@ -1,7 +1,7 @@
 # Loan-Analysis---Aurarin-Horizons-Financials
 
 ## 1. Project Background
-This project aims to analyze loan performance and borrower behavior using historical data from Aurarin Horizons Financial, a mid-sized lending institution specializing in consumer loans across various regions. Bright Future Financial aims to enhance its loan portfolio management by leveraging data-driven insights to optimize approval processes, reduce default rates, and identify high-value borrower segments.
+This project aims to analyze loan performance and borrower behavior using historical data from Aurarin Horizons Financial, a mid-sized lending institution specializing in consumer loans across various regions. Aurarin Horizons Financial aims to enhance its loan portfolio management by leveraging data-driven insights to optimize approval processes, reduce default rates, and identify high-value borrower segments.
 
 The objective is to uncover actionable insights that can improve loan approval processes, reduce default rates, and optimize lending strategies. The scope includes examining key financial metrics such as interest rates, creditworthiness, and debt-to-income ratios while segmenting borrower data by demographics and regions.
 
