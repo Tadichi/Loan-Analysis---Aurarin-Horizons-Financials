@@ -8,7 +8,8 @@ The objective is to uncover actionable insights that can improve loan approval p
 Key features of the analysis:
 - Utilizing SQL for data extraction and transformation.
 - Employing Power BI for interactive visualizations.
--	Leveraging financial metrics and business terminology like LTV (Loan-to-Value), DTI (Debt-to-Income), and repayment rates. This project aims to analyze loan performance and borrower behavior using historical data from a financial institution. The objective is to uncover actionable insights that can improve loan approval processes, reduce default rates, and optimize lending strategies. The scope includes examining key financial metrics such as interest rates, creditworthiness, and debt-to-income ratios while segmenting borrower data by demographics and regions.
+-	Leveraging financial metrics and business terminology like LTV (Loan-to-Value), DTI (Debt-to-Income), and repayment rates. This project aims to analyze loan performance and borrower behavior using historical data from a financial institution.
+-	The objective is to uncover actionable insights that can improve loan approval processes, reduce default rates, and optimize lending strategies. The scope includes examining key financial metrics such as interest rates, creditworthiness, and debt-to-income ratios while segmenting borrower data by demographics and regions.
 
 Below are the relevant resources for this project:
 
