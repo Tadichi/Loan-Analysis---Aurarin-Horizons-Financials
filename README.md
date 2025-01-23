@@ -2,24 +2,30 @@
 
 ## 1. Project Background
 This project aims to analyze loan performance and borrower behavior using historical data from Aurarin Horizons Financial, a mid-sized lending institution specializing in consumer loans across various regions. Bright Future Financial aims to enhance its loan portfolio management by leveraging data-driven insights to optimize approval processes, reduce default rates, and identify high-value borrower segments.
+
 The objective is to uncover actionable insights that can improve loan approval processes, reduce default rates, and optimize lending strategies. The scope includes examining key financial metrics such as interest rates, creditworthiness, and debt-to-income ratios while segmenting borrower data by demographics and regions.
 
 Key features of the analysis:
-•	Utilizing SQL for data extraction and transformation.
-•	Employing Power BI for interactive visualizations.
-•	Leveraging financial metrics and business terminology like LTV (Loan-to-Value), DTI (Debt-to-Income), and repayment rates. This project aims to analyze loan performance and borrower behavior using historical data from a financial institution. The objective is to uncover actionable insights that can improve loan approval processes, reduce default rates, and optimize lending strategies. The scope includes examining key financial metrics such as interest rates, creditworthiness, and debt-to-income ratios while segmenting borrower data by demographics and regions.
+- Utilizing SQL for data extraction and transformation.
+- Employing Power BI for interactive visualizations.
+-	Leveraging financial metrics and business terminology like LTV (Loan-to-Value), DTI (Debt-to-Income), and repayment rates. This project aims to analyze loan performance and borrower behavior using historical data from a financial institution. The objective is to uncover actionable insights that can improve loan approval processes, reduce default rates, and optimize lending strategies. The scope includes examining key financial metrics such as interest rates, creditworthiness, and debt-to-income ratios while segmenting borrower data by demographics and regions.
+
+Below are the relevant resources for this project:
+  Power BI Report: <a href="[https://github.com/Tadichi/maven-toys-data-analysis/blob/main/toy_sales.pbix](https://github.com/Tadichi/Loan-Analysis---Aurarin-Horizons-Financials/blob/main/Files/Aurarin%20Horizons%20Financial.pbix">pbix_file</a>
+  SQL Queries: <a href="[https://github.com/Tadichi/maven-toys-data-analysis/blob/main/SQL%20Queires.sql](https://github.com/Tadichi/Loan-Analysis---Aurarin-Horizons-Financials/blob/main/Files/SQL%20Query.sql">SQL_file</a>
+  CSV Data: <a href="[https://github.com/Tadichi/maven-toys-data-analysis/tree/main/Project%20Files](https://github.com/Tadichi/Loan-Analysis---Aurarin-Horizons-Financials/tree/main/Files">Dataset</a>
 
 
 ## 2. Executive Summary
 
 ### Key Highlights:
-  •	"No Pre-Approval" loans dominate approvals, accounting for 78% of all approvals, with Standard loans being the most prevalent.
-  •	Borrowers with low creditworthiness have significantly higher default rates despite similar credit scores to moderate borrowers.
-  •	Moderate interest rates (3%-4%) represent a critical risk zone, with the highest default counts.
-  •	Spread ranges between 0.14 and 0.52 see the most defaults, while negative spreads also exhibit risk factors.
-  •	The North region leads in defaults, while the North-East emerges as a low-risk region.
-  •	Joint borrowers in the 35-44 age group dominate high-value segments, particularly in the South region.
-  •	Standard loans show the largest volume but also the highest default rates, while Specialized loans indicate better repayment performance.
+  -	"No Pre-Approval" loans dominate approvals, accounting for 78% of all approvals, with Standard loans being the most prevalent.
+  -	Borrowers with low creditworthiness have significantly higher default rates despite similar credit scores to moderate borrowers.
+  -	Moderate interest rates (3%-4%) represent a critical risk zone, with the highest default counts.
+  -	Spread ranges between 0.14 and 0.52 see the most defaults, while negative spreads also exhibit risk factors.
+  -	The North region leads in defaults, while the North-East emerges as a low-risk region.
+  -	Joint borrowers in the 35-44 age group dominate high-value segments, particularly in the South region.
+  -	Standard loans show the largest volume but also the highest default rates, while Specialized loans indicate better repayment performance.
 
 ### Problem Statement
 
@@ -34,14 +40,14 @@ Key features of the analysis:
 
 ## 4. Tools and Technologies Used
 
-  •	SQL: For data cleaning, transformation, and analysis.
-  •	Power BI: For creating interactive dashboards and visualizations.
-  •	Excel: For initial data exploration and validation.
+  -	SQL: For data cleaning, transformation, and analysis.
+  -	Power BI: For creating interactive dashboards and visualizations.
+  -	Excel: For initial data exploration and validation.
 Key Processes:
-  •	Data cleaning to handle missing and inconsistent entries.
-  •	Normalization of financial metrics for uniform comparisons.
-  •	Segmentation of borrowers by demographics and regions.
-  •	Analysis of loan performance using key metrics such as default rates and repayment ratios.
+  -	Data cleaning to handle missing and inconsistent entries.
+  -	Normalization of financial metrics for uniform comparisons.
+  -	Segmentation of borrowers by demographics and regions.
+  -	Analysis of loan performance using key metrics such as default rates and repayment ratios.
 
 ## 5. Key Insights
 
@@ -50,43 +56,56 @@ Key Processes:
 ![matrix](https://github.com/user-attachments/assets/f8b17898-e9de-40bd-ab8c-96f17bf91e45)
 
   "No Pre-Approval" loans dominate approvals, accounting for 78% of all approved loans, while Pre-Approval loans constitute only 22%.
+
 Analysis: 
-  o	"No Pre-Approval" loans may appeal to borrowers seeking faster, less bureaucratic processes.
-  o	The low adoption of Pre-Approval could indicate either borrower hesitation or inefficiencies in the pre-approval pipeline.
-  o	Aligning marketing strategies with borrower preferences for "No Pre-Approval" could further streamline revenue generation.
-  •	Metric: Approval Rate (AR) = 78% for No Pre-Approval vs. 22% for Pre-Approval.
+  -	"No Pre-Approval" loans may appeal to borrowers seeking faster, less bureaucratic processes.
+  -	The low adoption of Pre-Approval could indicate either borrower hesitation or inefficiencies in the pre-approval pipeline.
+  -	Aligning marketing strategies with borrower preferences for "No Pre-Approval" could further streamline revenue generation.
+  
+  Approval Rate (AR) = 78% for No Pre-Approval vs. 22% for Pre-Approval.
 
 2. Creditworthiness Insights:
-     Borrowers with low creditworthiness exhibit a default rate of 37%, significantly higher than the 3% default rate for moderate borrowers.
+
+      Borrowers with low creditworthiness exhibit a default rate of 37%, significantly higher than the 3% default rate for moderate borrowers.
+
 Analysis: 
-  o	The discrepancy suggests that current credit scoring models might inadequately assess repayment capacity for low-creditworthiness borrowers.
-  o	Developing alternative scoring models that incorporate behavioral and transactional data could improve accuracy in risk prediction.
-  o	Focusing on improving credit education for low-creditworthiness borrowers may lower default rates.
+ -	The discrepancy suggests that current credit scoring models might inadequately assess repayment capacity for low-creditworthiness borrowers.
+ -	Developing alternative scoring models that incorporate behavioral and transactional data could improve accuracy in risk prediction.
+ -	Focusing on improving credit education for low-creditworthiness borrowers may lower default rates.
+
 Default Rate (DR) = (Defaults / Total Loans) × 100. 
 DR for Low Creditworthiness: 37%; Moderate: 3%.
 
 3. Interest Rate Patterns:
+
       Moderate interest rates (3%-4%) have the highest default count at 46,224 loans, while low interest rates (<3%) correspond with high repayment rates.
+
 Analysis: 
-  o	Borrowers in the 3%-4% range might be struggling with a combination of suboptimal terms and repayment capacities.
-  o	Structuring repayment plans with flexibility in this range could reduce defaults and improve borrower retention.
-  o	Loans at <3% interest represent an opportunity to target low-risk, high-volume borrowers for consistent portfolio growth.
+  -	Borrowers in the 3%-4% range might be struggling with a combination of suboptimal terms and repayment capacities.
+  -	Structuring repayment plans with flexibility in this range could reduce defaults and improve borrower retention.
+  -	Loans at <3% interest represent an opportunity to target low-risk, high-volume borrowers for consistent portfolio growth.
+    
 Default-to-Repayment Ratio (DRR) = 1.85 for the 3%-4% range.
 
 4. Spread Impact:
-    Spreads between 0.14-0.52 are associated with the highest defaults, with significant clusters like 9,923 defaults at a 3.99% interest rate.
+
+     Spreads between 0.14-0.52 are associated with the highest defaults, with significant clusters like 9,923 defaults at a 3.99% interest rate.
+
 Analysis: 
-  o	Moderate spreads might be misaligned with borrower affordability, leading to increased defaults.
-  o	Adjusting pricing strategies to avoid problematic spread ranges could improve repayment metrics.
-  o	Further analysis is needed to understand why negative spreads (<0) still see notable defaults.
+  -	Moderate spreads might be misaligned with borrower affordability, leading to increased defaults.
+  -	Adjusting pricing strategies to avoid problematic spread ranges could improve repayment metrics.
+  -	Further analysis is needed to understand why negative spreads (<0) still see notable defaults.
+
 Default Spread Impact (DSI) = 34% of defaults occur in the 0.14-0.52 spread range.
 
 5. Regional Loan Performance:
      The North region leads with 41,794 defaults, while the North-East region maintains the lowest default rate at 2.3%.
+
 Analysis: 
-  o	High defaults in the North indicate economic or policy challenges specific to this region. A localized approach to lending policies could mitigate risk.
-  o	The North-East offers opportunities for growth as a low-risk market segment.
-  o	Tailored financial products by region could help improve borrower satisfaction and minimize defaults.
+  -	High defaults in the North indicate economic or policy challenges specific to this region. A localized approach to lending policies could mitigate risk.
+  -	The North-East offers opportunities for growth as a low-risk market segment.
+  -	Tailored financial products by region could help improve borrower satisfaction and minimize defaults.
+
 Regional Default Rate (RDR) = 18.5% in the North vs. 2.3% in the North-East.
 
 6. Demographic Patterns:
@@ -94,10 +113,12 @@ Regional Default Rate (RDR) = 18.5% in the North vs. 2.3% in the North-East.
 ![demographics](https://github.com/user-attachments/assets/9459e0df-038d-4d97-be5b-f5cfdda24d93)
 
   Joint borrowers in the 35-44 age group dominate both loan count and average loan amount, with a peak average of $472,875 in the South.
+
 Analysis: 
-  o	Joint borrowers represent a reliable and lucrative segment due to their higher repayment reliability and borrowing capacity.
-  o	Enhanced financial products, such as co-borrower discounts, could increase retention within this demographic.
-  o	Underrepresented groups, such as younger borrowers (<25) and older borrowers (>74), could benefit from targeted loan programs to grow participation.
+  -	Joint borrowers represent a reliable and lucrative segment due to their higher repayment reliability and borrowing capacity.
+  -	Enhanced financial products, such as co-borrower discounts, could increase retention within this demographic.
+  -	Underrepresented groups, such as younger borrowers (<25) and older borrowers (>74), could benefit from targeted loan programs to grow participation.
+
 Demographic Loan Value (DLV) = $1.25B for Joint borrowers in the South.
 
 7. Loan Type Analysis:
@@ -105,18 +126,23 @@ Demographic Loan Value (DLV) = $1.25B for Joint borrowers in the South.
 ![overview](https://github.com/user-attachments/assets/6503ac97-c697-4428-9b22-9768b14f45c4)
    
    Standard loans account for the highest defaults and largest volume, while Specialized loans show better repayment performance.
+
 Analysis: 
-  o	Standard loans present a dual challenge of high risk and high exposure. Refining underwriting practices for this loan type is critical.
-  o	Specialized loans could be scaled with minimal adjustments, offering a safer avenue for growth.
-  o	Loan diversification strategies could reduce overreliance on Standard loans.
+  -	Standard loans present a dual challenge of high risk and high exposure. Refining underwriting practices for this loan type is critical.
+  -	Specialized loans could be scaled with minimal adjustments, offering a safer avenue for growth.
+  -	Loan diversification strategies could reduce overreliance on Standard loans.
+
 Loan Performance Index (LPI) = 0.42 for Standard loans vs. 0.68 for Specialized loans.
 
 8. High-Value Segments:
+ 
     Joint borrowers in the South dominate as the most lucrative group, with a Segment Value Contribution (SVC) of $1.9M.
-Business Analysis: 
-  o	High-value borrowers exhibit strong repayment reliability, making them ideal candidates for premium financial products.
-  o	Further segmentation within high-value groups could identify untapped sub-segments, such as high-income individual borrowers.
-  o	Marketing strategies tailored to Joint borrowers in the South can drive sustained portfolio growth.
+
+Analysis: 
+  -	High-value borrowers exhibit strong repayment reliability, making them ideal candidates for premium financial products.
+  -	Further segmentation within high-value groups could identify untapped sub-segments, such as high-income individual borrowers.
+  -	Marketing strategies tailored to Joint borrowers in the South can drive sustained portfolio growth.
+
 Segment Value Contribution (SVC) = Average Loan Amount × Repayment Rate = $1.9M for Joint Borrowers in the South.
 
 ## 6. Final Recommendations for Aurarin Horizons Financial
@@ -132,18 +158,20 @@ Segment Value Contribution (SVC) = Average Loan Amount × Repayment Rate = $1.9M
 ## 7. Caveats and Assumptions
    
 1.	Data Cleaning:
-  o	Missing values in critical fields were addressed using mean and median imputation.
-  o	Non-numeric entries in numeric columns were removed.
+  -	Missing values in critical fields were addressed using mean and median imputation.
+  -	Non-numeric entries in numeric columns were removed.
 
 2.	Data Normalization:
-  o	Financial metrics such as loan amounts and DTIs were normalized for fair comparisons.
-  o	Outliers were handled using interquartile range (IQR) methods.
+  -	Financial metrics such as loan amounts and DTIs were normalized for fair comparisons.
+  -	Outliers were handled using interquartile range (IQR) methods.
+
 3.	Assumptions for Analysis:
-  o	Borrowers are independent with no co-borrower or linked loan scenarios.
-  o	Loan repayment is binary (paid or defaulted), excluding partial repayments.
-  o	Regional segmentation assumes no overlaps in borrower activity.
+  -	Borrowers are independent with no co-borrower or linked loan scenarios.
+  -	Loan repayment is binary (paid or defaulted), excluding partial repayments.
+  -	Regional segmentation assumes no overlaps in borrower activity.
+
 4.	Limitations:
-  o	Historical data may not fully reflect future trends due to economic or regulatory changes.
-  o	Demographic bins may not capture nuanced borrower behavior.
+  -	Historical data may not fully reflect future trends due to economic or regulatory changes.
+  -	Demographic bins may not capture nuanced borrower behavior.
 
  Despite these challenges, the analysis provides robust insights to guide strategic decision-making.
