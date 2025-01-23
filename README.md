@@ -11,9 +11,12 @@ Key features of the analysis:
 -	Leveraging financial metrics and business terminology like LTV (Loan-to-Value), DTI (Debt-to-Income), and repayment rates. This project aims to analyze loan performance and borrower behavior using historical data from a financial institution. The objective is to uncover actionable insights that can improve loan approval processes, reduce default rates, and optimize lending strategies. The scope includes examining key financial metrics such as interest rates, creditworthiness, and debt-to-income ratios while segmenting borrower data by demographics and regions.
 
 Below are the relevant resources for this project:
-  Power BI Report: <a href="[https://github.com/Tadichi/maven-toys-data-analysis/blob/main/toy_sales.pbix](https://github.com/Tadichi/Loan-Analysis---Aurarin-Horizons-Financials/blob/main/Files/Aurarin%20Horizons%20Financial.pbix)">pbix_file</a>
-  SQL Queries: <a href="[https://github.com/Tadichi/maven-toys-data-analysis/blob/main/SQL%20Queires.sql](https://github.com/Tadichi/Loan-Analysis---Aurarin-Horizons-Financials/blob/main/Files/SQL%20Query.sql">SQL_file</a>
-  CSV Data: <a href="[[https://github.com/Tadichi/maven-toys-data-analysis/tree/main/Project%20Files](https://github.com/Tadichi/Loan-Analysis---Aurarin-Horizons-Financials/tree/main/Files](https://github.com/Tadichi/Loan-Analysis---Aurarin-Horizons-Financials/tree/main/Files)">Dataset</a>
+
+  [Power BI Report](https://github.com/Tadichi/Loan-Analysis---Aurarin-Horizons-Financials/blob/main/Files/Aurarin%20Horizons%20Financial.pbix)
+  
+  [SQL Queries](https://github.com/Tadichi/Loan-Analysis---Aurarin-Horizons-Financials/blob/main/Files/SQL%20Query.sql)
+  
+  [CSV Data](https://github.com/Tadichi/Loan-Analysis---Aurarin-Horizons-Financials/tree/main/Files)
 
 
 ## 2. Executive Summary
